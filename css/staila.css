@@ -1,0 +1,464 @@
+@font-face {
+    font-family: Quicksilver;
+    src: url(/assets/Quicksilver.ttf);
+}
+
+
+
+#stframe{ 
+  
+    background-color: white; 
+    /*background-image: url(/assets/iconbackground.svg);*/
+   border: 2px solid rgb(0, 0, 0);
+   
+height: 745px;
+display: flex;
+justify-content: center; 
+    align-items: center; 
+}
+
+#bioframe{
+    background-color: white;
+
+}
+
+.logo{
+    position: absolute;
+    transition: transform 0.3s ease-in-out;
+}
+
+#logoOrange{ transition: transform 0.3s ease-in-out;
+transform: translateY(-5px);
+
+}
+
+.container:has(.logo3:hover) .logo2 {
+transform: translateY(-10px);
+}
+    
+#logoBlue{ transition: transform 0.3s ease-in-out;
+transform: translateY(5px);
+}
+
+
+#beats{margin-left: 3vw; 
+    font-family: Montserrat, serif; 
+    font-weight: 500; 
+    color: white; 
+    background-color: black; 
+    border-color:black;}
+
+#proyectos{
+    margin-left: 3vw; 
+    font-family: Montserrat, serif; 
+    font-weight: 500; color: white; 
+    background-color: black; 
+    border-color:black;
+}    
+
+
+
+#bioframe{
+  
+background-color: white;
+    height: 450px;
+    width: 101.5%;
+     align-items: center; 
+   
+     
+    
+        font-family: "Montserrat", serif;
+        font-weight: bold;
+        font-size: 3.5vh;
+        
+        
+        
+  
+}
+
+#textbox{
+    
+    width:45vw
+
+}
+.textboxfont{
+    font-family: Funnel Sans, serif;
+    font-weight: 500;
+    
+}
+
+
+
+#fotozans{
+ 
+    max-width: 100%;  
+    height: 40vh;    
+    display: block; 
+    border: 5px solid black;
+    
+}
+
+/*#titlepanel{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+border: 3px solid black;
+height: 13vh;
+width: 100%;
+text-align: center;
+align-items: center;
+}
+*/
+
+
+.enfoques{
+
+
+
+
+    font-family: "Montserrat", serif;   
+    font-weight: 900;
+    font-size: 4vw;
+    max-width: 10vw;
+ 
+   
+}
+
+
+#carouselcontainer{
+    background-color: black;
+    justify-items: center;
+    align-items: center;
+    padding: 5%;
+    border: 2px solid black;
+
+}
+
+
+#carousel{
+
+    
+    background-color: black;
+    width: 75%;
+    height:max-content;
+   
+}
+
+/*
+#thpanel{
+
+    
+    align-items: center;
+    justify-items: center;
+    height: 550px;
+    border: 2px solid black;
+}
+*/
+#cardi{ background-color: rgb(255, 255, 255); 
+color: rgb(0, 0, 0);
+}
+    
+
+.iconfonts{
+    font-family: Montserrat, serif;
+    font-weight: 600;
+    font-size: 4vw;
+}
+
+
+
+
+
+#spotify{
+
+    background-color: black; 
+    padding: 5vh; 
+    border: 3px solid white;
+     border-radius: 6.5vh; 
+     height: 12vh; 
+     width: max-content; 
+     color: white;
+}
+
+#spotify:hover{
+  
+    background-color: white; 
+    padding: 5vh; 
+    border: 3px solid black;
+     border-radius: 6.5vh; 
+     height: 12vh; 
+     width: max-content; 
+     color: black;
+     
+}
+
+
+#instagram{
+    background-color: black;
+     padding: 5vh; 
+     border: 3px solid white; 
+     border-radius: 6.5vh; 
+     height: 12vh; 
+     width: max-content; 
+     color: white;
+
+}
+#instagram:hover{
+  
+    background-color: white; 
+    padding: 5vh; 
+    border: 3px solid black;
+     border-radius: 6.5vh; 
+     height: 12vh; 
+     width: max-content; 
+     color: black;
+     
+}
+
+#gmail{
+    background-color: black;  
+    padding: 5vh; 
+    border: 3px solid white; 
+    border-radius: 6.5vh; 
+    height: 12vh; 
+    width: max-content; 
+    color: white;
+}
+#gmail:hover{
+  
+    background-color: white; 
+    padding: 5vh; 
+    border: 3px solid black;
+     border-radius: 6.5vh; 
+     height: 12vh; 
+     width: max-content; 
+     color: black;
+     
+}
+
+#vid{}
+
+/* AQUI EMPIEZA EL CSS PARA LA PAGINA DE PROYECTOS*/
+
+.fontme{font-family: Quicksilver;
+font-size: 5vh;}
+
+#tart{
+   
+      
+    height: 40vh;  
+    
+
+}
+
+#description{
+    font-family: Montserrat;
+    font-size: 2.5vh;
+    text-align: justify;
+    font-weight: 700;
+}
+
+#tracklist{
+   
+    font-family: Montserrat;
+    font-size: 2.5vh;
+    text-align: justify;
+    font-weight: 700;
+    
+}
+
+#title{
+    height: max-content; 
+    display: flex;
+    text-align: center;
+    align-items: center; 
+    justify-content: center; 
+    background-color: white; 
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+.outline {
+
+    color: rgb(16, 14, 14);
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke-width: 0.15vw;
+    
+    }
+
+    .outline2 {
+
+        color: rgb(255, 255, 255);
+        -webkit-text-fill-color:transparent;
+        -webkit-text-stroke-width: 0.10cqw;
+        
+        }
+
+
+
+#anythingtext{
+    background-color: rgb(255, 255, 255); 
+    border: 2px solid black;
+   
+}
+
+        .releasedate{
+            font-style: italic;
+            color: rgb(143, 143, 143);
+            font-size: 1.9vh;
+        }
+
+
+/* ESTE ES PARA LOS MUSIC PLAYERS */
+.cargo{
+    border: 2px solid black;
+    border-radius: 10px;
+
+   
+    background-color: rgb(255, 255, 255);
+
+
+    
+}
+.cardcustom{
+    font-family: "Montserrat", serif;
+    font-weight: 900;
+    font-size: x-large;
+    text-align: center;
+}
+        
+
+/* FOOTER STUFF */ 
+.footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
+}
+
+.footer-section {
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+/* CONTACTATE CSS*/
+
+
+  .contact-form {
+   
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  .contact-form input, .contact-form textarea, .contact-form button{
+    
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+#cabeza{
+    font-family: "Montserrat",serif;
+    font-weight: 500;
+    font-size: 6vh;
+   
+    height: max-content;
+}
+
+/*DARK MODE*/
+:root {
+    --bg-color: rgb(255, 255, 255);
+    --text-color: black;
+    --border-color: black;
+    --bg--color-2: rgb(255, 255, 255);
+    --footer-bg: #222;
+    --footer-text: white;
+}
+
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition:  0.5s ease-in-out, color 0.3s ease-in-out;
+}
+
+
+/* Darkie reads */
+.dark-mode {
+    --bg-color: #222222;
+    --text-color: white;
+    --bg-color-2: rgb(0, 0, 0);
+    --border-color: rgb(255, 255, 255);
+    --footer-bg: #111;
+    --footer-text: #ccc;
+    --outline-color: white;
+    --new-text-color: black; 
+}
+
+
+
+/*Darkie speaks*/
+#stframe,  #NAVBAR, #cardpanel, #titleplanel, #anythingtext{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border-color: var(--border-color);}
+
+    #bioframe, #carouselcontainer, #cardi, #title {
+        color: var(--text-color);
+        background-color: var(--bg-color-2);
+        border-color: var(--border-color);
+        
+    }
+
+    .outline{
+        color: var(--outline-color);
+    }
+
+    #textile{
+        color: var(--new-text-color);
+    }
+   
